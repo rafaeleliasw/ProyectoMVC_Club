@@ -68,7 +68,7 @@
                   <li><a href="#">Administrar Socios</a></li>
                   <li><a href="#">Administrar Cuotas</a></li>
                   <li><a href="#">Administrar Promociones</a></li>
-                  <li><a href="#">Administrar Multa</a></li>
+                  <li><a href="#">Administrar Multa aaaaa</a></li>
                   <li><a href="#">Administrar Noticias</a></li>
                   <li><a href="#">Administrar Calendario</a></li>
                   <li><a href="<?php echo URL; ?>tiposocio">Administrar Tipos de Socio</a></li>
