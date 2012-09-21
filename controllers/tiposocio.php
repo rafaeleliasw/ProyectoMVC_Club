@@ -1,6 +1,6 @@
 <?php
 
-class Deportes extends Controller {
+class TipoSocio extends Controller {
 
 	function __construct() {
 		parent::__construct();

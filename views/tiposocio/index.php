@@ -6,15 +6,10 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <?php
-                    while ($row = mysql_fetch_array($result)) {
-                        ?>
-                        <tr>
-                            <td><?=$row['tipoSocio']?></td>
+                      <tr>
+                            <td>Tipo de socio</td>
                         </tr>
-                        <?php
-                    }
-                    ?>
+                     
                 </tbody>
             </table>
         </div>
