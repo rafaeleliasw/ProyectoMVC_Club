@@ -1,0 +1,43 @@
+/* 
+    Document   : custom
+    Created on : Sep 17, 2012, 11:48:51 AM
+    Author     : relias
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.error { 
+    color: red;
+}
+
+.textarea {
+    width: 50%;
+}
+
+h2 {
+    font-size: 25px;
+    margin: 10px 0 10px 0;
+    color: #0088cc;
+    text-align: left;
+    text-shadow: 1px 1px 1px #D8D7D7;
+}
+
+.titulo {
+    font-weight: bold;
+    list-style-type: none;
+    margin: 5px;
+}
+
+.right {
+    float: right;
+    width: 20%;
+    height: 20%;
+    margin: 5px;
+}
+
+.left {
+    float: left;
+    width: 20%;
+    height: 20%;
+    margin: 5px;
+}

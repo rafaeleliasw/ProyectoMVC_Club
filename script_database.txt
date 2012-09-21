@@ -1,0 +1,34 @@
+CREATE DATABASE 'mvc_club'
+
+CREATE TABLE IF NOT EXISTS `data` 
+(
+  
+`id` int(11) NOT NULL AUTO_INCREMENT,
+  
+`text` varchar(250) NOT NULL,
+  
+PRIMARY KEY (`id`)
+
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+
+
+CREATE TABLE IF NOT EXISTS `users` 
+(
+  
+`id` int(11) NOT NULL AUTO_INCREMENT,
+  
+`user` varchar(25) NOT NULL,
+  
+`password` varchar(50) NOT NULL,
+  
+`isAdmin` tinyint(1) NOT NULL DEFAULT '0',
+ 
+ PRIMARY KEY (`id`)
+
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
+
+INSERT INTO `users` (`user`, `password`, `isAdmin`) 
+VALUES
+('admin', '0cc837f8ced0bdfd23001629343c3127', 1),
+
+('user', '0cc837f8ced0bdfd23001629343c3127', 0);

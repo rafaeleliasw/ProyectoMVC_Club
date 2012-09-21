@@ -1,0 +1,236 @@
+@charset "utf-8";
+/* CSS Document */
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: #0088cc;
+}
+
+BODY
+{
+    background: #f2efef;
+    text-align:center;
+    margin:0 auto;
+    font-family: 'Arvo', serif;
+    overflow: hidden;
+    overflow-y:scroll;
+}
+
+#contenedor
+{
+    margin: 0 auto;
+    text-align:left;
+    width: 100%;
+    height: auto;
+ 
+}
+
+#header
+{
+    width: 100%;
+    height: 280px;
+    text-align: left;
+    background: url(images/header.jpg) no-repeat center top; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#menu {
+    float: right;
+    height: 80px;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    background: url(images/menu-gradient.png) repeat-x; 
+    background:  linear-gradient(top, #0584bf , #0d4f91);
+    background: -moz-linear-gradient(top, #0584bf, #0d4f91);
+    background: -webkit-linear-gradient(top, #0584bf, #0d4f91); 
+    background: -ms-linear-background(top, #0584bf, #0d4f91);
+    
+        
+}
+
+#menu ul {
+    float: right;
+    width: 800px;
+    line-height: normal;
+    list-style: none outside none;
+    margin-right: 50px;
+    padding: 25px 0 0;
+}
+#menu li {
+    float: left;
+    height: auto;
+    padding: 0 15px;
+    margin-top: -20px;
+    text-shadow: 2px 2px 2px #333;
+}
+#menu a {
+    border: medium none;
+    color: #FFFFFF;
+    display: block;
+    font-size: 14px;
+    height: 70px;
+    letter-spacing: 1px;
+    line-height: 70px;
+    margin-right: 1px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#menu a:hover, #menu .current_page_item a {
+    border-bottom: 5px solid #fff;
+    text-decoration: none;
+}
+
+
+#content{
+    margin: 100px 0 0 125px;
+    height: auto;
+    width: auto;
+    padding: 10px;
+    color: #727272;
+}
+
+#content form{
+    color: #006091;
+    line-height: 30px;
+}
+
+label {
+    float: left;
+}
+
+.boton{
+    font-size:14px;
+    color:white;
+    background:#0d4f91;
+    border:0px;
+    width:100px;
+    height:25px;
+    cursor:pointer;
+    border-radius: 2px;
+    text-transform: uppercase;
+    box-shadow: inset 0px 0px 6px #000;
+}
+
+input[type="radio"] {
+    margin-left: 20px;
+}
+
+input[type="text"], input[type="password"] {
+    border-radius: 2px;
+    height: 20px;
+    width: 300px;
+    color: #545454;
+    background:none repeat scroll 0 0 #F8F8F8;
+    border:2px solid #D8D7D7;
+    resize:none;
+    color:#858585;
+    font-size: 16px;
+    margin:0;
+    outline:medium none;
+    padding:5px;
+}
+
+#leftColumn{
+    float: left;
+    width: 700px;
+    color: #969493;
+    text-align: left;
+}
+
+.error {
+    display: block;
+    color: red;
+    margin-left: 5px;
+}
+
+#leftColumn p{
+    text-align: justify;
+    border-bottom: silver solid 1px;
+    padding-bottom: 40px;
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 25px;
+    margin: 10px 0 10px 0;
+    color: #0d4f91;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+h2 {
+    font-size: 25px;
+    margin: 10px 0 10px 0;
+    color: #0088cc;
+    text-align: left;
+    text-shadow: 1px 1px 1px #D8D7D7;
+}
+
+h3{
+    font-size: 10px;
+    margin: 10px 0 10px 0;
+    text-align: right;
+}
+
+#rightColumn{
+    float: right;
+    width: 400px;
+    text-align: left;
+}
+
+#rightColumn h2{
+    border-bottom: 1px solid #ededde;
+}
+
+#rightColumn input[type="text"], #rightColumn input[type="password"]{
+    border-radius: 2px;
+    height: 13px;
+    width: 180px;
+    color: #545454;
+    background:none repeat scroll 0 0 #F8F8F8;
+    border:2px solid #D8D7D7;
+    resize:none;
+    color:#858585;
+    font-size:1rem;
+    margin:0;
+    outline:medium none;
+    padding:5px;
+}
+
+textarea{
+    border-radius: 2px;
+    color: #545454;
+    background:none repeat scroll 0 0 #F8F8F8;
+    border:2px solid #D8D7D7;
+    resize:none;
+    color:#858585;
+    font-size: 16px;
+    margin-left: -1px;
+    outline:medium none;
+    padding:5px;
+    
+}
+
+#footer{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 14px;
+    border-top: 4px groove silver;
+    background:  linear-gradient(top, #0584bf , #0d4f91);
+    background: -moz-linear-gradient(top, #0584bf, #0d4f91);
+    background: -webkit-linear-gradient(top, #0584bf, #0d4f91); 
+    background: url(images/menu-gradient.png) repeat-x; 
+    color: #fff;
+    padding-top: 25px;
+}
