@@ -2,13 +2,16 @@ Dashboard... Logged in only..
 
 <br />
 
-<form id="randomInsert" action="<?php echo URL;?>dashboard/xhrInsert/" method="post">
-	<input type="text" name="text" />
+<form name="randomInsert" id="randomInsert" action="<?php echo URL;?>dashboard/xhrInsert/" method="post">
+	<input id="text" type="text" name="text" />
 	<input type="submit" />
 </form>
 
 <br />
 
-<div id="listInserts">
+
+<table id="listInserts" class="table table-striped">
+
 	
-</div>
+</table>
+
