@@ -49,3 +49,106 @@ h2 {
 #listTipoSocios{
     width: 70%;
 }
+
+.reqfield{
+    color:red;
+    font-size: 15px;
+}
+
+a.reqfield:link, a.reqfield:visited, a.reqfield:active a.reqfield:hover{
+     color: red;
+     text-transform: none;
+     text-decoration: none;
+}
+
+
+#paging_container2{
+	height: 356px;	
+}
+
+#paging_container3{
+	height: 190px;
+}
+
+#paging_container4{
+	height: 307px;	
+	overflow: hidden;
+}
+
+#paging_container8 .no_more{
+    background-color: white;
+    color: gray;
+    cursor: default;
+}
+
+.ellipse{
+	float: left;
+}
+
+.contgrilla{
+	float: left;
+	padding: 20px;
+	background-color: white;
+}
+
+.page_navigation , .alt_page_navigation{
+	padding-bottom: 10px;
+        float: right;
+        margin-right: 20%;
+}
+
+.page_navigation a, .alt_page_navigation a{
+	padding:3px 5px;
+	margin:2px;
+	color:white;
+	text-decoration:none;
+	float: left;
+	font-family: Tahoma;
+	font-size: 12px;
+	background-color:#006DCC;
+}
+.active_page{
+	background-color:white !important;
+	color:black !important;
+}	
+
+#paging_container1{
+    width: 100%;
+}
+
+.grilla, .alt_content{
+	color: black;
+        height: 280px;
+}
+
+.grilla li, .alt_content li, .grilla > p{
+	padding: 5px;
+        border-top: 1px solid #eee;
+}
+
+ul.col2
+{
+padding-right: 0px;
+padding-left: 0px;
+float: left;
+padding-bottom: 0px;
+margin: 15px 0px;
+width: 100%;
+padding-top: 0px;
+list-style-type: none
+}
+ 
+ul.col2 li
+{
+padding-right: 2px;
+display: inline;
+padding-left: 2px;
+float: left;
+padding-bottom: 5px;
+width: 40%;
+padding-top: 2px;
+}
+
+.encabezado{
+    font-weight: bold;
+}

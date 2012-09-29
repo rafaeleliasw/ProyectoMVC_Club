@@ -33,6 +33,8 @@
     	<script type="text/javascript" src="<?php echo URL; ?>public/js/jquery.js"></script>
         <script type="text/javascript" src="<?php echo URL; ?>public/js/validate.js"></script>
 	<script type="text/javascript" src="<?php echo URL; ?>public/js/custom.js"></script>
+        <script type="text/javascript" src="<?php echo URL; ?>public/js/jquery.pajinate.js"></script>
+        
 	<?php
 		if (isset($this->js)) 
 		{

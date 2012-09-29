@@ -28,8 +28,6 @@ class TipoSocio_Model extends Model {
         $sth = $this->db->prepare('INSERT INTO tiposocio (descripcion) VALUES (:descripcion)');
         $sth->execute(array(':descripcion' => $descripcion));
 
-        $data = array('descripcion' => $descripcion, 'id' => $this->db->lastInsertId());
-        echo json_encode($data);
     }
 
     function editSave($idtiposocio) {

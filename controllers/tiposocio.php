@@ -22,6 +22,7 @@ class TipoSocio extends Controller {
     function add() {
 
         $this->model->add();
+        header('location: ' . URL . 'tiposocio');
     }
 
     function edit($id) {
